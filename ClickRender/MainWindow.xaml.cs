@@ -27,11 +27,13 @@ namespace ClickRender
 
         private void buttonOK(object sender, RoutedEventArgs e)
         {
+            //OKボタンを押したら最小化
             WindowState = WindowState.Minimized;
         }
 
         private void buttonExit(object sender, RoutedEventArgs e)
         {
+            //Exitボタンを押したら終了
             Application.Current.Shutdown();
         }
     }
